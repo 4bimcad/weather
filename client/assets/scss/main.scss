@@ -4,3 +4,88 @@
 /* purgecss end ignore */
 
 @tailwind utilities;
+
+body {
+  font-family: 'montserrat', sans-serif;
+}
+
+.app {
+  background-image: url('https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+  text-align: center;
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(100, 97, 97, 0.5);
+  border-radius: 16px;
+  margin-top: -15px;
+
+  box-shadow:rgba(0, 0, 0, 0.2);
+
+  color: #e9e1e1;
+  font-size: 30px;
+
+}
+
+.location-box .location {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  text-shadow:3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-shadow:1px 1px rgba(50, 50, 70, 0.5);
+}
+
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(27, 26, 26, 0.2);
+  border-radius: 15px;
+
+  padding: 10px 15px;
+
+  color: #fff;
+  font-size: 60px;
+  font-weight: 900;
+
+  text-shadow:3px 3px rgba(50, 50, 70, 0.2);
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.weather-box .weather {
+  color: #fff;
+  font-size: 33px;
+  font-weight: 700;
+  text-shadow:2px 2px rgba(50, 50, 70, 0.5);
+}
