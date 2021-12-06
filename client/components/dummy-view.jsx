@@ -32,7 +32,7 @@ const Dummy = () => {
 
 const api = {
   key: '6f66993e659943ccd39dc55d0ab946ba',
-  base: 'http://api.openweathermap.org/data/2.5/'
+  base: 'https://api.openweathermap.org/data/2.5/'
 }
 
 const [query, setQuery] = useState('')
